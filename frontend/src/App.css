@@ -1,0 +1,40 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+select {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.statistics div {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.bar-chart, .pie-chart {
+  margin: 20px 0;
+}
